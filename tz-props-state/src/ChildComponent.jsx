@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from "react";
-import ParentComp from "./ParentComponent";
 
 const ChildComponent = (props) => {
   let counter = props.count;

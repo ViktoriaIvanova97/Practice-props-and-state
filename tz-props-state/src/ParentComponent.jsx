@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ChildComponent from "./ChildComponent";
+import SiblingComponent from "./SiblingComponent";
 
 const ParentComp = () => {
   const name = "Вика";
@@ -28,6 +29,9 @@ const ParentComp = () => {
 
       <div>
         <ChildComponent username={name} count={state} />
+      </div>
+      <div>
+        <SiblingComponent />
       </div>
     </>
   );
